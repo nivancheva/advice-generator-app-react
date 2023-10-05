@@ -9,7 +9,7 @@ function App() {
     <div className='wrapper'>
       <div className='card'>
         <p>Advice #</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non fuga ullam eveniet illo asperiores, distinctio velit vitae!</p>
+        <p className='card_quote'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non fuga ullam eveniet illo asperiores, distinctio velit vitae!</p>
         <picture className='pattern_img'>
               <source srcSet={patternDesktop} media="(min-width:800px)"/>
               <img src={patternMobile}/>
